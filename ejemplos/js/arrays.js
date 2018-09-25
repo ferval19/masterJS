@@ -1,10 +1,20 @@
-'use strict'
+(function() {
+    'use strict';
+    // this function is strict...
 
-console.log('yeeeee');
+    //DOM: Document Object Model
 
-var numeros = new Array(6);
+    console.log('yeeeee');
 
-for (var i = 0; i < 6; i++) {
-    numeros.push(parseInt(prompt('Introduce numero: ', 0)));
+    numeros();
+}());
+
+
+
+function numeros() {
+    var numeros = new Array(6);
+    for (var i = 0; i < 6; i++) {
+        numeros.push(parseInt(prompt('Introduce numero: ', 0)));
+    }
+    console.log(numeros);
 }
-console.log(numeros);

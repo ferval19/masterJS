@@ -1,9 +1,12 @@
-"use strict"
+(function() {
+    'use strict';
+    // this function is strict...
 
-//DOM: Document Object Model
+    //DOM: Document Object Model
 
-var caja = document.getElementById('caja');
+    var caja = document.getElementById('caja');
 
-caja.style.background = 'red';
+    caja.style.background = 'red';
 
-console.log(caja);
+    console.log(caja);
+}());
